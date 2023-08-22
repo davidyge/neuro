@@ -8,8 +8,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #03050d;
-  /* background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%); */
+  background-color: #fffbfb;
+  /*background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%); */
   background-image: linear-gradient(90deg, rgba(189, 36, 223, 0.5) 0%, rgba(45, 106, 222, 0.5) 97.15%);
   background-blend-mode: overlay;
 }
@@ -22,8 +22,8 @@ html:not([data-scroll="0"]) .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
-  background-color: #252525;
+  background-image: linear-gradient(90deg, #ffffff 0%, #ff0400 97.15%);
+  background-color: #e80404;
   background-blend-mode: overlay;
   opacity: 1.9;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
@@ -32,12 +32,12 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 .navbutton {
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #fb1008 0%, #dc580c 97.15%);
   border-radius: 10px;
 }
 
 .navbutton:hover {
-  background: linear-gradient(90deg, #2D6ADE 0%, #BD24DF 97.15%);
+  background: linear-gradient(90deg, #dc580c 0%, #dc580c 97.15%);
 }
 
 .arrowOne {
@@ -56,7 +56,7 @@ html:not([data-scroll="0"]) .navbar {
   top: 20%;
   left: 17%;
   background-image: url('/images/Banner/arrowTwo.svg');
-  width: 9%;
+  width: 9%; 
   height: 100%;
   background-repeat: no-repeat;
   z-index: -1;
@@ -84,7 +84,7 @@ html:not([data-scroll="0"]) .navbar {
   z-index: -1;
 }
 
-.arrowFive {
+.arrowFive { 
   position: absolute;
   background-image: url('/images/Banner/arrowFive.svg');
   top: 61%;
@@ -184,7 +184,7 @@ html:not([data-scroll="0"]) .navbar {
 /* Simple Section */
 
 .simple-bg {
-  background: linear-gradient(90deg, rgba(189, 36, 223, 0.1) 0%, rgba(45, 106, 222, 0.1) 97.15%);
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.1) 0%, rgba(45, 106, 222, 0.1) 97.15%);
 }
 
 .simpleone {

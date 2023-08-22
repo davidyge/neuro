@@ -13,10 +13,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#home-section', current: false },
-    { name: 'Exchange', href: '#exchange-section', current: false },
-    { name: 'Features', href: '#features-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
+    { name: 'Inicio', href: '#home-section', current: false },
+   // { name: 'Nosotros', href: '#exchange-section', current: false },
+    { name: 'Servicios', href: '#features-section', current: false },
+    { name: 'Demo', href: '#faq-section', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -39,12 +39,12 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center">
                                 <img
                                     className="block h-10 w-20px lg:hidden"
-                                    src={'/images/Logo/logo.svg'}
+                                    src={'/images/Logo/logos.png'}
                                     alt="Crypto-Logo"
                                 />
                                 <img
                                     className="hidden h-48px w-48px lg:block"
-                                    src={'/images/Logo/logo.svg'}
+                                    src={'/images/Logo/logos.png'}
                                     alt="Crypto-Logo"
                                 />
                             </div>
