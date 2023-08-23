@@ -7,11 +7,22 @@ import Simple from './components/Simple/index';
 import Trade from './components/Trade/index';
 import Faq from './components/Faq/index';
 
-
+/*
+- /inicio - navbar
+- Banner:pantalla principal
+- Companies:carrucel de las compañias
+- Work: Informacion del trabajo en los 3 cuadros
+- Table:lista de informaciòn en una tabla
+- Features: caracteristicas del trabajo
+- Simple: Una forma sencilla y segura de comprar
+- Trade: iconos de sistemas operativos
+- Faq: preguntas frecuentes
+- / fin - footer
+*/
 export default function Home() {
   return (
     <main>
-      <Banner />
+      <Banner /> 
       <Companies />
       <Work />
       <Table />
