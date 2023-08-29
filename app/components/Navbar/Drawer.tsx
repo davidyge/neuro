@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
 
-
+//XMarkIcon ES DEL ICONO DE X
 interface DrawerProps {
     children: ReactNode;
     isOpen: boolean;
@@ -42,7 +42,9 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                         <article className="relative w-340px max-w-lg pb-10 flex flex-col space-y-6 h-full">
                     <header className="px-4 py-4 flex items-center justify-between">
 
-                        <XMarkIcon className="block h-6 w-6 text-black" onClick={() => {
+
+
+                        <XMarkIcon className="block h-6 w-6 text-bluish" onClick={() => {
                             setIsOpen(false);
                         }} />
                     </header>
