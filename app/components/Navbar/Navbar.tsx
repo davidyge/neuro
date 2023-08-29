@@ -69,7 +69,10 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <button id="contacto" className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Contactenos</button>
+                            <button className='soporte hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 text-black'>Soporte</button>
+
+
+
                             {/* <Contactusform /> */}
                         </div>
 

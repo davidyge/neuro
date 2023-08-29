@@ -8,8 +8,18 @@ const Banner = () => {
     const [isOpen, setOpen] = useState(false)
 
     return (
+        /* FILA 49 <div className='col-span-5 lg:-m-48'>
+                        <div className='arrowThree'></div>
+                            <div className='arrowFour'></div>
+                            <div className='arrowFive'></div>
+                            <Image src="/images/Banner/fondos.png" alt="nothing" width={1013} height={760} />
+                            <div className='arrowSix'></div>
+                            <div className='arrowSeven'></div>
+                            <div className='arrowEight'></div>
+                        </div>*/
       
       //<div className="mx-auto max-w-7xl pt-16 lg:pt-40 sm:pb-24 px-6" style={{ marginTop: '0px' }}>
+      //  <div className='arrowTwo'></div> lineA 25
         <div className='bg-image relative' id="home-section">
 
 
@@ -22,9 +32,7 @@ const Banner = () => {
                 <div className='height-work'>
                     <div className='grid grid-cols-1 lg:grid-cols-12 my-16'>
 
-                    
-
-                        <div className='arrowTwo'></div>
+       
                         <div className='col-span-7'>
                             <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-black md:4px md:text-start text-center">
                                 Gestion comercial<br /> y Facturación
@@ -32,20 +40,18 @@ const Banner = () => {
                             <p className='text-black md:text-lg font-normal mb-10 md:text-start text-center'>Diseñada para impulsar el crecimiento de tu negocio, <br />simplifica tus procesos diarios, gestiona clientes, productos <br /> y servicios de manera eficiente y emite facturas profesionales</p>
                             <div className='flex align-middle justify-center md:justify-start'>
                                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>Más información</button>
-                                
+                                <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-black'><Image id="expanding-icono"  src={'/images/Banner/icono.svg'} alt="button-image" className='mr-3' width={47} height={47} />Ver más</button>
 
-                                <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-black'><Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />Ver más</button>
                             </div>
                         </div>
 
                         <div className='col-span-5 lg:-m-48'>
-                            <div className='arrowThree'></div>
-                            <div className='arrowFour'></div>
-                            <div className='arrowFive'></div>
-                            <Image src="/images/Banner/fondo.png" alt="nothing" width={1013} height={760} />
-                            <div className='arrowSix'></div>
-                            <div className='arrowSeven'></div>
-                            <div className='arrowEight'></div>
+                        
+                           
+                            <Image id="expanding-image" src="/images/Banner/fondos2.png" alt="nothing" width={1013} height={760} style={{ marginTop: '100px' }} />
+                           
+
+                           
                         </div>
 
                     </div>

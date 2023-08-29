@@ -8,12 +8,12 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#home-section', current: false },
-    { name: 'Exchange', href: '#exchange-section', current: false },
-    { name: 'Features', href: '#features-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
+    { name: 'Inicio', href: '#home-section', current: false },
+    { name: 'Servicios', href: '#exchange-section', current: false },
+   // { name: 'Features', href: '#features-section', current: false },
+    { name: 'Demo', href: '#faq-section', current: false },
 ]
-
+//navyblue
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
@@ -37,10 +37,14 @@ const Data = () => {
                                 {item.name}
                             </Link>
                         ))}
-                        <div className="mt-4"></div>
-                        <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
-                            Connect Wallet
-                        </button>
+                        
+                       
+                        <center>
+                        <button className='text-x font-semibold text-white py-3 px-3 lg:px-8 navbutton2 mr-6'>Contáctenos</button>
+                        </center>
+
+
+
                     </div>
                 </div>
             </div>

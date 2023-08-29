@@ -18,8 +18,17 @@ import Faq from './components/Faq/index';
 - Trade: iconos de sistemas operativos
 - Faq: preguntas frecuentes
 - / fin - footer
+
 */
+
+
+import { FaWhatsappSquare } from 'react-icons/fa';
+
+import { FaWhatsapp  } from 'react-icons/fa';
+import Contact from './components/Contact';
+
 export default function Home() {
+
   return (
     <main>
       <Banner /> 
@@ -30,6 +39,19 @@ export default function Home() {
       <Simple />
       <Trade />
       <Faq />
+      <Contact/>
+
+
+      <a
+        href="https://wa.link/pzw01y"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-icon"
+      >
+        <FaWhatsapp  />
+        <span className="contact-message">Contáctanos</span>
+      </a>
+
     </main>
   )
 }

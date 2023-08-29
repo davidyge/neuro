@@ -9,22 +9,22 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/images/Companies/birdseye.svg"
+        imgSrc: "/images/Companies/1_san_carlos.png"
     },
     {
-        imgSrc: "/images/Companies/break.svg"
+        imgSrc: "/images/Companies/2_trapiche_house.png"
     },
     {
-        imgSrc: "/images/Companies/keddar.svg"
+        imgSrc: "/images/Companies/3_hotel_fransico.png"
     },
     {
-        imgSrc: "/images/Companies/shield.svg"
+        imgSrc: "/images/Companies/4_primax.png"
     },
     {
-        imgSrc: "/images/Companies/tandov.svg"
+        imgSrc: "/images/Companies/5_viajero.png"
     },
     {
-        imgSrc: "/images/Companies/tree.svg"
+        imgSrc: "/images/Companies/6_cevicheria.png"
     },
 ]
 
