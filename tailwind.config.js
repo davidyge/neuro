@@ -20,9 +20,10 @@ module.exports = {
       'lightwhite': '#d0d3db',
       'darkblue': '#091945',
       'green': '#139277',
-      'red': '#c92a8f',
+      'red': '#ff0400',
       'lightblue': '#8A9BCA',
       'blue': '#0C1B44',
+      'gray': '#f5f7fd',
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],

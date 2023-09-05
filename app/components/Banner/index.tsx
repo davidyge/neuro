@@ -2,30 +2,31 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
+import Slider from "react-slick";
+
+
+
 
 
 const Banner = () => {
-    const [isOpen, setOpen] = useState(false)
 
+    const [isOpen, setOpen] = useState(false)
+   
     return (
-        /* FILA 49 <div className='col-span-5 lg:-m-48'>
-                        <div className='arrowThree'></div>
-                            <div className='arrowFour'></div>
-                            <div className='arrowFive'></div>
-                            <Image src="/images/Banner/fondos.png" alt="nothing" width={1013} height={760} />
-                            <div className='arrowSix'></div>
-                            <div className='arrowSeven'></div>
-                            <div className='arrowEight'></div>
-                        </div>*/
+
+        /*
+        <div className='col-span-5 lg:-m-48'>
+                            <Image id="expanding-image" src="/images/Banner/fondos2.png" alt="nothing" width={1013} height={760} style={{ marginTop: '100px' }} /> 
+                        </div>
+         */
       
       //<div className="mx-auto max-w-7xl pt-16 lg:pt-40 sm:pb-24 px-6" style={{ marginTop: '0px' }}>
       //  <div className='arrowTwo'></div> lineA 25
         <div className='bg-image relative' id="home-section">
 
-
             <div className='arrowOne'></div>
             <div className='radial-banner hidden lg:block'></div>
-            <ModalVideo channel='youtube' isOpen={isOpen} videoId="1YyAzVmP9xQ" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' isOpen={isOpen} videoId="QDYSFxEOfz0" onClose={() => setOpen(false)} />
 
             <div className="mx-auto max-w-7xl pt-16 lg:pt-40 sm:pb-24 px-6">
 
@@ -39,33 +40,45 @@ const Banner = () => {
                             </h1>
                             <p className='text-black md:text-lg font-normal mb-10 md:text-start text-center'>Diseñada para impulsar el crecimiento de tu negocio, <br />simplifica tus procesos diarios, gestiona clientes, productos <br /> y servicios de manera eficiente y emite facturas profesionales</p>
                             <div className='flex align-middle justify-center md:justify-start'>
+                                <a href="https://wa.link/pzw01y" target="_blank">
                                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>Más información</button>
-                                <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-black'><Image id="expanding-icono"  src={'/images/Banner/icono.svg'} alt="button-image" className='mr-3' width={47} height={47} />Ver más</button>
+                                </a>
+                                <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-black'>
+                                <Image id="expanding-icono"  src={'/images/Banner/icono.svg'} alt="button-image" className='mr-3' width={47} height={47} />
+                                Ver más</button>
 
                             </div>
                         </div>
-
-                        <div className='col-span-5 lg:-m-48'>
+                
                         
-                           
-                            <Image id="expanding-image" src="/images/Banner/fondos2.png" alt="nothing" width={1013} height={760} style={{ marginTop: '100px' }} />
-                           
+                        <div className='col-span-5 lg:-m-48 contenedor_b'>
+                            <Image id="expanding-image" src="/images/Banner/fondos2.png" alt="nothing" width={1013} height={760} style={{ marginTop: '100px' }} /> 
+                            
+                            <button onClick={() => setOpen(true)} className='btn_b bg-transparent flex justify-center items-center text-black'>
+                            <div className='icon_banner_ant'> 
+                            <div className='icon_banner'> 
+                                <Image id="expanding-icono"  src={'/images/Banner/icono.svg'} alt="button-image"  width={65} height={65} />
+                                </div>
+                                </div>
+                                </button>
+                                
 
-                           
+
+                        
                         </div>
+                      
+                        
+
+                        
 
                     </div>
                     
-
-                
-
 
                 </div>
             </div>
 
 
         </div>
-    )
-}
+    )}
 
 export default Banner;

@@ -9,8 +9,10 @@ const Trade = () => {
             <div className="grid lg:grid-cols-2 gap-x-5">
                 {/* Column-1 */}
                 <div>
-                    <Image src={'/images/Trade/macbook.png'} alt="macBook-image" width={787} height={512} />
+                    <Image src={'/images/Trade/demo.png'} alt="macBook-image" width={787} height={512} />
+                    
                 </div>
+                
 
                 {/* Column-2 */}
 
@@ -25,8 +27,18 @@ const Trade = () => {
                         <Image src={'/images/Trade/cell_phone.svg'} alt="windows-image" width={80} height={105} />
                         
                     </div>
+                    
                 </div>
+                
+                
             </div>
+            <br/>
+            <br/><br/>
+                    <div className="flex justify-center ">
+                    <a href="#contact-section">
+                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton'>Probar Demo gratis</button>
+                    </a>
+                </div>
         </div>
     )
 }

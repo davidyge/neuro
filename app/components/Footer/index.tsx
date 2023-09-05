@@ -23,13 +23,14 @@ const products: ProductType[] = [
 
 const socialLinks: Social[] = [
   { imgsrc: '/images/Footer/insta.svg', href: "https://instagram.com/" },
-  { imgsrc: '/images/Footer/dribble.svg', href: "https://dribble.com/" },
-  { imgsrc: '/images/Footer/twitter.svg', href: "https://twitter.com/" },
+  { imgsrc: '/images/Footer/facebook.svg', href: "https://facebook.com/" },
+  { imgsrc: '/images/Footer/tiktok.svg', href: "https://tiktok.com/" },
   { imgsrc: '/images/Footer/youtube.svg', href: "https://youtube.com/" },
 ]
 
 
 const footer = () => {
+ 
   return (
     <div className="footer relative">
       
@@ -41,18 +42,26 @@ const footer = () => {
           {/* COLUMN-1 */}
 
           <div className='col-span-6'>
-            <img width={'70px'} height={'100px'}
-              className="block h-12 w-20px mb-4"
+            <center>
+            <img
+              className="block h-50 w-100px mb-4"
               src={'/images/Logo/logos.png'}
               alt="Crypto-Logo"
-            />
+            /></center>
             <h3 className='text-white text-sm font-normal leading-9 mb-4 lg:mb-16'>Estamos aquí para ayudarte. Te asignaremos un asesor personal para que te guía en todo el proceso de aprendizaje y/o puedas consultar con el cualquier duda que tengas
-</h3>
+            </h3>
+            <h3 className="text-white text-xl font-medium mb-5">Nuestras redes sociales</h3>
             <div className='flex gap-4'>
               {socialLinks.map((items, i) => (
-                <Link href={items.href} key={i}><img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' /></Link>
+                <Link href={items.href} key={i} target="_blank">
+                  <div className='icon-container'>
+                    
+                  <img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' />
+                  </div>
+                  </Link>
               ))}
             </div>
+            
           </div>
 
           {/* CLOUMN-2/3 */}
@@ -71,12 +80,25 @@ const footer = () => {
           ))}
 
           <div className="col-span-4">
+          
             <h3 className="text-white text-xl font-medium mb-9">Contáctenos</h3>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />964035352</h4>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />ventas@neurosystemperu.com</h4>
+            
+
+            
+            
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2" >
+              <Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />
+               <a href={`tel:964035352`} className="text-offwhite">964035352</a> 
+            </h4>
+
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2">
+            <Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />
+            <a href={'mailto:dgonzalesespinoza2.20@gmail.com'} className="text-offwhite">ventas@neurosystemperu.com</a>
+
+            </h4>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} />Huánuco: Jr. 28 de Julio 313</h4>
             <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} />Pucallpa: Jr. TARAPACA 896</h4>
-      
+           
           </div>
 
         </div>

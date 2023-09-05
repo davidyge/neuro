@@ -2,17 +2,19 @@
 
 const Simple = () => {
     return (
-        <div className="simple-bg relative">
+        <div className="simple-bg relative" id="simple_section">
             <div className="simpleone"></div>
             <div className="simpletwo"></div>
             <div className="simplethree"></div>
             <div className="simplefour"></div>
             <div className="simplefive"></div>
             <div className="mx-auto max-w-5xl py-24 px-6">
-                <h3 className="text-center text-offwhite text-3xl lg:text-5xl font-semibold mb-6">A simple, secure way to buy <br /> and sell cryptocurrency</h3>
-                <p className="text-center text-bluish text-lg font-normal mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br /> has been the industry</p>
+                <h3 className="text-center text-offblack text-3xl lg:text-5xl font-semibold mb-6">Simplifica y Moderniza tu  <br /> negocio</h3>
+                <p className="text-center text-black text-lg font-normal mb-8">La era digital ha transformado la manera en que hacemos negocios, y la facturación electrónica es la clave para simplificar y modernizar tus procesos de facturación. ¿Estás buscando optimizar tu flujo de trabajo financiero y ahorrar tiempo y dinero? ¡La facturación electrónica es la solución que necesitas!</p>
                 <div className="flex justify-center ">
-                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton'>Connect Wallet</button>
+                <a href="#contact-section">
+                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton'>Iniciar prueba</button>
+                    </a>
                 </div>
             </div>
             <div className="simplesix"></div>

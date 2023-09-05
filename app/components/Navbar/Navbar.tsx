@@ -14,9 +14,9 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Inicio', href: '#home-section', current: false },
-   // { name: 'Nosotros', href: '#exchange-section', current: false },
-    { name: 'Servicios', href: '#features-section', current: false },
-    { name: 'Demo', href: '#faq-section', current: false },
+    { name: 'Servicios', href: '#work_section', current: false },
+    { name: 'Demo', href: '#simple_section', current: false },
+    { name: 'Contacto', href: '#contact-section', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -24,6 +24,10 @@ function classNames(...classes: string[]) {
 }
 
 const Navbar = () => {
+    const handleCallSupport = () => {
+        const phoneNumber = "997578199"; // Coloca aquí el número de teléfono al que deseas llamar //soporte
+        window.location.href = `tel:${phoneNumber}`;
+    }
 
     const [isOpen, setIsOpen] = React.useState(false);
 
@@ -69,10 +73,15 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <button className='soporte hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 text-black'>Soporte</button>
 
-
-
+                            
+ 
+                            <button
+                        className='soporte hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 text-black'
+                        onClick={handleCallSupport}
+                    >
+                        Soporte
+                    </button>
                             {/* <Contactusform /> */}
                         </div>
 
@@ -82,7 +91,7 @@ const Navbar = () => {
                         {/* DRAWER ICON */}
 
                         <div className='block lg:hidden'>
-                            <Bars3Icon className="block h-6 w-6 text-white" aria-hidden="true" onClick={() => setIsOpen(true)} />
+                            <Bars3Icon className="block h-6 w-6 text-white cursor-pointer" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
 
                         {/* DRAWER LINKS DATA */}

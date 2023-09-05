@@ -8,10 +8,12 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
+
     { name: 'Inicio', href: '#home-section', current: false },
-    { name: 'Servicios', href: '#exchange-section', current: false },
-   // { name: 'Features', href: '#features-section', current: false },
-    { name: 'Demo', href: '#faq-section', current: false },
+    { name: 'Servicios', href: '#work_section', current: false },
+    { name: 'Demo', href: '#simple_section', current: false },
+    { name: 'Contacto', href: '#contact-section', current: false },
+    
 ]
 //navyblue
 function classNames(...classes: string[]) {
@@ -29,8 +31,8 @@ const Data = () => {
                                 key={item.name}
                                 href={item.href}
                                 className={classNames(
-                                    item.current ? 'bg-gray-900 text-purple' : 'text-black hover:bg-gray-700 hover:text-purple',
-                                    'block  py-2 rounded-md text-base font-medium'
+                                    item.current ? 'bg-gray-900 text-red' : 'text-black hover:bg-gray-700 hover:text-red',
+                                    'block  py-2 rounded-md text-base font-medium fondoMobile'
                                 )}
                                 aria-current={item.current ? 'page' : undefined}
                             >

@@ -24,34 +24,34 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
             <section
             
                 className={
-                    "w-340px max-w-sm left-0 gg h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
+                    "w-340px max-w-sm left-0 ggMobile h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
                     (isOpen ? "translate-x-0" : "-translate-x-full")
                 }
             >
                 <div className="cabecera_m">
-
-                <div className="flex flex-shrink-0 items-center">
+     
+                    <header className="px-4 py-4 flex items-center justify-between">
+                    <div className="flex flex-shrink-0 items-center">
                             <img
                                 className="block h-10 lg:hidden"
                                 src={'/images/Logo/logos.png'}
                                 alt="Crypto-Logo"
                                 
                             />
-                        </div>
+                            
 
-                        <article className="relative w-340px max-w-lg pb-10 flex flex-col space-y-6 h-full">
-                    <header className="px-4 py-4 flex items-center justify-between">
+                        </div> 
 
-
-
-                        <XMarkIcon className="block h-6 w-6 text-bluish" onClick={() => {
+                        <XMarkIcon className="block h-6 w-6 text-white cursor-pointer" onClick={() => {
                             setIsOpen(false);
                         }} />
                     </header>
+                    
                     <div onClick={() => {
                         setIsOpen(false);
                     }}>{children}</div>
-                </article>
+          
+                
                 </div>
                 
 

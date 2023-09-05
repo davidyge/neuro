@@ -10,25 +10,25 @@ interface faqdata {
 
 const faqdata: faqdata[] = [
     {
-        heading: "1. What is cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "1. pregunta1",
+        subheading: 'respuesta informacion'
     },
     {
-        heading: "2. Can cryptocurrency be converted to cash?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "2. pregunta2",
+        subheading: 'respuesta informacion'
     },
     {
-        heading: "3. How long should you hold cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "3. pregunta3",
+        subheading: 'respuesta informacion3'
     },
 
 ]
 
 const Faq = () => {
     return (
-        <div className="my-20 px-6" id="faq-section">
+        <div className="my-20 px-6 bg-gray py-24" id="faq-section">
             <h3 className="text-center text-3xl lg:text-5xl font-bold text-black mb-3">Preguntas frecuentes</h3>
-            <p className="text-center lg:text-lg font-normal text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br /> been the industry standard dummy text ever since the 1500s,</p>
+            <p className="text-center lg:text-lg font-normal text-black">Preguntas frecuentes descripcion <br /> Preguntas frecuentes descripción</p>
 
             <div className="mx-auto max-w-7xl">
                 <div className="grid lg:grid-cols-2">
@@ -37,7 +37,7 @@ const Faq = () => {
                         <div className="w-full px-4 pt-16">
 
                             {faqdata.map((items, i) => (
-                                <div className="mx-auto w-full max-w-5xl rounded-2xl bg-blue py-8 px-6 mb-5" key={i}>
+                                <div className="box_caja mx-auto w-full max-w-5xl rounded-2xl py-8 px-6 mb-5" key={i}>
                                     <Disclosure>
                                         {({ open }) => (
                                             <>
@@ -48,7 +48,7 @@ const Faq = () => {
                                                             } h-5 w-5 text-purple-500`}
                                                     />
                                                 </Disclosure.Button>
-                                                <Disclosure.Panel className="px-4 pt-4 pb-2 md:text-lg text-bluish font-normal opacity-50">{items.subheading}</Disclosure.Panel>
+                                                <Disclosure.Panel className="px-4 pt-4 pb-2 md:text-lg text-white font-normal opacity-100">{items.subheading}</Disclosure.Panel>
                                             </>
                                         )}
                                     </Disclosure>

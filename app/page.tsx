@@ -7,6 +7,8 @@ import Simple from './components/Simple/index';
 import Trade from './components/Trade/index';
 import Faq from './components/Faq/index';
 
+
+
 /*
 - /inicio - navbar
 - Banner:pantalla principal
@@ -27,6 +29,11 @@ import { FaWhatsappSquare } from 'react-icons/fa';
 import { FaWhatsapp  } from 'react-icons/fa';
 import Contact from './components/Contact';
 
+
+
+
+
+
 export default function Home() {
 
   return (
@@ -34,12 +41,13 @@ export default function Home() {
       <Banner /> 
       <Companies />
       <Work />
-     
       <Features />
       <Simple />
       <Trade />
       <Faq />
       <Contact/>
+ 
+
 
 
       <a

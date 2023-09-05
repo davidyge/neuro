@@ -30,14 +30,14 @@ const workdata: workdata[] = [
     
 
 ]
-
+/*f5f7fd*/
 const Work = () => {
     return (
-        <div className='tarjetas'>
-            <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative'>
+        <div className='tarjetas bg-gray' id='work_section'>
+            <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative py-24'>
                 <div className="radial-bgone hidden lg:block"></div>
                 <div className='text-center mb-14'>
-                    <h3 className='text-black text-3xl md:text-5xl font-bold mb-3'>Personalizado a tus necesidades</h3>
+                    <h3 className='text-black text-3xl md:text-5xl font-bold mb-3 mx-auto'>Personalizado a tus necesidades</h3>
                     <p className='text-black md:text-lg font-normal leading-8'>Optimiza tus operaciones comerciales con nuestro moderno sistema de facturación electrónica. <br /> Simplifica tus procesos de facturación y contabilidad mientras te mantienes al día con las regulaciones fiscales.</p>
                 </div>
 
