@@ -13,15 +13,20 @@ body {
   background-image: linear-gradient(90deg, rgba(189, 36, 223, 0.5) 0%, rgba(45, 106, 222, 0.5) 97.15%);
   background-blend-mode: overlay;
 }
+
+
 /*transición de la expansion de imagen de portada*/
-#expanding-image {
+
+/*#expanding-image {
   margin-top: 50px;
-  transition: all 0.7s ease-in-out; /* Agrega una transición suave a todos los cambios */
-}
+  transition: all 0.7s ease-in-out;  Agrega una transición suave a todos los cambios 
+}*/
 /* expansion de la imagen de portada*/
+/*
 #expanding-image:hover {
-  transform: scale(1.05); /* Escala la imagen un 10% más grande al pasar el cursor por encima */
-}
+  transform: scale(1.05);  Escala la imagen un 10% más grande al pasar el cursor por encima 
+}*/
+
 
 /*transición de la expansion del icono play de youtube*/
 #expanding-icono {
@@ -88,8 +93,8 @@ body {
 
 .btn_b {
   position: absolute;
-  top: 60%; /* Ajusta la posición vertical del botón al centro del contenedor */
-  left: 50%; /* Ajusta la posición horizontal del botón al centro del contenedor */
+  top: 68%; /* Ajusta la posición vertical del botón al centro del contenedor */
+  left: 58%; /* Ajusta la posición horizontal del botón al centro del contenedor */
   transform: translate(-120%, -90%); /* Centra el botón exactamente en el centro del contenedor */
   padding: 10px 20px; /* Espaciado interno del botón (ajusta según tus necesidades) */
   cursor: pointer;
@@ -239,6 +244,9 @@ html:not([data-scroll="0"]) .navbar {
   background-color: #ffffff;
 }
 */
+.tarjetas{
+  margin-top: -30px;
+}
 
 .card-b {
   background: #fafafa;
@@ -246,23 +254,24 @@ html:not([data-scroll="0"]) .navbar {
   border-radius: 20px;
   position: relative;
   transition: transform 430ms;
-  height: 258px;
+  height: 350px;
 }
 
 .card-b:hover {
   filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.1));
   transform: scale(1.05);
   border: 1px solid #969696;
-  height: 360px;
+  
 }
 
 .hides {
   display: none;
 }
-
+/*desplegar caja de texto*/
+/*
 .card-b:hover > .hides {
   display: block;
-}
+}*/
 
 .work-img-bg {
   background: linear-gradient(90deg, #ff0400 0%, #ff0400 97.15%);
@@ -274,6 +283,8 @@ html:not([data-scroll="0"]) .navbar {
 .work-img-bg:hover{
   background: linear-gradient(90deg, #ff7b00 0%, #ff8400 97.15%);
 }
+
+
 
 .soporte{
   background-color: #f3f3f3;
@@ -301,6 +312,8 @@ html:not([data-scroll="0"]) .navbar {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+
 
 
 
@@ -482,6 +495,9 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 /* IOCONOS FOOTER */
+.footer{
+  margin-top: -300px;
+}
 .icon-container {
   width: 50px; /* Ancho del contenedor (ajusta según tus necesidades) */
   height: 50px; /* Altura del contenedor (ajusta según tus necesidades) */
@@ -716,14 +732,23 @@ th:last-child {
 
 
 /*FONDO DE LAS CAJAS DE PREGUNTAS FRECUENTES*/
+.contenedor_box{
+margin-top: 120px;
+}
 .box_caja{
   background-color: #e10a06;
+  border-radius: 10px;
 }
 .box_caja:hover{
-  background-color: #f35d12;
+  background-color: #f63c38;
   filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.1));
-  transform: scale(1.05);
   border: 1px solid #969696;
+}
+/*#F23838*/
+.flex2{
+
+  border-radius: 10px;
+  width: 100%;
 }
 
 /*BANNER*/
@@ -735,6 +760,21 @@ th:last-child {
 
 .fade-in-out.show {
   opacity: 1;
+}
+
+/*BOTONES PARA GOOGLE MAPS*/
+.custom-btn {
+  background-color: #e10a06;
+  color: #fff;
+  font-weight: 200;
+  /* Otros estilos aquí */
+}
+
+/* Estilo cuando el botón está activo */
+.custom-btn.active {
+  background-color: #f35d12; /* Cambia el color de fondo cuando está activo */
+  /* Otros estilos aquí */
+   font-weight: 700;
 }
 
 

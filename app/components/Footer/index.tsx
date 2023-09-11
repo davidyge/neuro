@@ -17,15 +17,15 @@ const products: ProductType[] = [
   {
     id: 1,
     section: "Soluciones",
-    link: ['Factura Electronica', 'Validación OSE', 'Desarrollos a medida', 'Negocio'],
+    link: ['Factura Electronica', 'Desarrollos a medida', 'Negocio','Registro e importación de productos'],
   }
 ]
 
 const socialLinks: Social[] = [
-  { imgsrc: '/images/Footer/insta.svg', href: "https://instagram.com/" },
-  { imgsrc: '/images/Footer/facebook.svg', href: "https://facebook.com/" },
-  { imgsrc: '/images/Footer/tiktok.svg', href: "https://tiktok.com/" },
-  { imgsrc: '/images/Footer/youtube.svg', href: "https://youtube.com/" },
+  { imgsrc: '/images/Footer/insta.svg', href: "https://www.instagram.com/neurosoftperu/" },
+  { imgsrc: '/images/Footer/facebook.svg', href: "https://www.facebook.com/neurosoft.tech/" },
+  { imgsrc: '/images/Footer/tiktok.svg', href: "https://www.tiktok.com/@neurosoftperu"},
+  { imgsrc: '/images/Footer/youtube.svg', href: "https://www.youtube.com/@NeuroSoftPeru/featured" },
 ]
 
 
@@ -107,7 +107,7 @@ const footer = () => {
       {/* All Rights Reserved */}
 
       <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Adminmart.com</Link></h3>
+        <h3 className='text-center text-offwhite'>@Copyright-2023 <Link href="https://adminmart.com/" target="_blank"> </Link></h3>
       </div>
 
     </div>

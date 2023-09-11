@@ -150,7 +150,8 @@ export default class MultipleItems extends Component {
         };
         return (
 
-            <div className='text-center bg-lightpink' >
+            <div className='text-center bg-lightpink mt-10' >
+                <h3 className='text-black text-3xl md:text-5xl font-bold mb-3 mx-auto'>Nuestros clientes</h3>
                 <div className="mx-auto max-w-2xl py-8 px-4s sm:px-6 lg:max-w-7xl lg:px-8">
                     <div>
                         <Slider {...settings}>

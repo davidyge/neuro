@@ -1,16 +1,34 @@
 "use client"
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ModalVideo from 'react-modal-video';
 import Slider from "react-slick";
-
-
-
 
 
 const Banner = () => {
 
     const [isOpen, setOpen] = useState(false)
+
+    const [imageIndex, setImageIndex] = useState(0);
+    const images = ["/images/Banner/fondos2.png", "/images/Banner/fondos8.png"];
+
+    const [fadeIn, setFadeIn] = useState(true);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+          setFadeIn(false); // Comienza a desvanecer
+          setTimeout(() => {
+            setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+            setFadeIn(true); // Comienza a aparecer con la nueva imagen
+          }, 700); // tiempo de transparecncia
+        }, 3000); // cambios de imagen
+    
+        return () => {
+          clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
+        };
+      }, [images]);
+    
+      const currentImage = images[imageIndex];
    
     return (
 
@@ -52,7 +70,15 @@ const Banner = () => {
                 
                         
                         <div className='col-span-5 lg:-m-48 contenedor_b'>
-                            <Image id="expanding-image" src="/images/Banner/fondos2.png" alt="nothing" width={1013} height={760} style={{ marginTop: '100px' }} /> 
+                            <Image id="expanding-image"   src={currentImage}
+                                alt={`Imagen ${imageIndex + 1}`}
+                                style={{
+                                display: "block",
+                                marginTop: "100px",
+                                transition: "opacity 0.5s ease-in-out", // Transición suave de opacidad
+                                opacity: fadeIn ? 1 : 0, // Aplicar opacidad gradualmente
+                                }} width={1013} height={760} />
+                           
                             
                             <button onClick={() => setOpen(true)} className='btn_b bg-transparent flex justify-center items-center text-black'>
                             <div className='icon_banner_ant'> 

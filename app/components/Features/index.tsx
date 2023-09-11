@@ -9,27 +9,29 @@ interface featuresdata {
 
 const featuresdata: featuresdata[] = [
     {
-        imgSrc: '/images/Features/featureOne.svg',
+        imgSrc: '/images/Features/agilidad.svg',
         heading: 'Agilidad',
         subheading: 'Genera y envía facturas en segundos, sin procesos manuales',
     },
     {
-        imgSrc: '/images/Features/featureTwo.svg',
+        imgSrc: '/images/Features/dollar.svg',
         heading: 'Ahorro',
         subheading: 'Reducción de costos en papel, impresiones y envíos postales',
     },
     {
-        imgSrc: '/images/Features/featureThree.svg',
+        imgSrc: '/images/Features/norma.svg',
         heading: 'Cumplimiento',
         subheading: 'Cumple con regulaciones fiscales y normativas',
     },
+    
 ]
 
 const Features = () => {
     return (
-        <div className="mx-auto max-w-7xl my-0 md:my-20 pt-36 px-6 relative" id="features-section">
+        
+        <div className="feature mx-auto max-w-7xl  my-8 pt-36 px-6 relative" id="features-section">
             <div className="radial-bg hidden lg:block"></div>
-            <div className="grid lg:grid-cols-2 gap-x-4 gap-y-4">
+            <div className="grid lg:grid-cols-2 gap-x-4 gap-y-4 ">
                 {/* Column-1 */}
                 <div>
                     
@@ -46,7 +48,7 @@ const Features = () => {
 
                                 <div className="flex items-center justify-center "> 
                                 <div className="rounded-full gg h-16 w-16 flex items-center justify-center mb-10">
-                                    <Image src={items.imgSrc} alt={items.imgSrc} width={24} height={30} /> 
+                                    <Image src={items.imgSrc} alt={items.imgSrc} width={38} height={38} /> 
                                     
                                 </div>
                                
@@ -63,6 +65,7 @@ const Features = () => {
                 </div>
             </div>
         </div>
+       
     )
 }
 

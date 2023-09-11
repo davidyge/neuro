@@ -12,19 +12,19 @@ const workdata: workdata[] = [
     {
         imgSrc: '/images/Work/building.svg',
         heading: 'Empresas variadas',
-        subheading: 'Únete a empresas que ya aprovechan la facturación electrónica para transacciones más ágiles y precisas.',
+        subheading: 'Únete a empresas que ya aprovechan la facturación electrónica para transacciones más ágiles y precisas. Simplifica tus procesos y cumple con regulaciones fiscales. Envía y gestiona facturas de manera eficiente.',
         hiddenpara: 'Simplifica tus procesos y cumple con regulaciones fiscales. Envía y gestiona facturas de manera eficiente.',
     },
     {
         imgSrc: '/images/Work/setting.svg',
         heading: 'Adaptable a tu empresa',
-        subheading: 'El sistema se adpta a tus necesidades y podemos personalizarlo a tu gusto',
+        subheading: 'El sistema se adpta a tus necesidades y podemos personalizarlo a tu gusto. Personaliza y optimiza tus procesos de facturación. Simplifica la administración y mantén el control. Descubre cómo nuestra tecnología se amolda a tu empresa.',
         hiddenpara: 'Personaliza y optimiza tus procesos de facturación. Simplifica la administración y mantén el control. Descubre cómo nuestra tecnología se amolda a tu empresa.',
     },
     {
         imgSrc: '/images/Work/problem.svg',
         heading: '¿Tienes algún problema?',
-        subheading: 'Contamos con el area de soporte las 24 horas del dia y los 7 dias de la semana en nuestra linea de atención al cliente',
+        subheading: 'Contamos con el area de soporte las 24 horas del dia y los 7 dias de la semana en nuestra linea de atención al cliente. Resolvemos tus dudas y problemas rápidamente. Estamos aquí para ayudarte a superar cualquier obstáculo. Tu tranquilidad es nuestra prioridad.',
         hiddenpara: 'Resolvemos tus dudas y problemas rápidamente. Estamos aquí para ayudarte a superar cualquier obstáculo. Tu tranquilidad es nuestra prioridad.',
     },
     
@@ -33,7 +33,9 @@ const workdata: workdata[] = [
 /*f5f7fd*/
 const Work = () => {
     return (
-        <div className='tarjetas bg-gray' id='work_section'>
+        <div className='tarjetas1 py-1' id='work_section'> 
+        <div className='tarjetas bg-gray'> 
+          
             <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative py-24'>
                 <div className="radial-bgone hidden lg:block"></div>
                 <div className='text-center mb-14'>
@@ -61,6 +63,7 @@ const Work = () => {
                 </div>
 
             </div>
+        </div>
         </div>
     )
 }
