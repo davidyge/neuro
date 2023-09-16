@@ -36,7 +36,7 @@ const faqdata = [
             <div className="mx-auto max-w-7xl">
                 <div className="grid lg:grid-cols-2">
 
-                    {/* Column-1 */}
+                    {/*Column-1*/}
                     <div>
 
       <div className="contenedor_box w-full max-w-2xl p-2 mx-auto rounded-2xl">

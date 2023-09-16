@@ -44,8 +44,8 @@ const footer = () => {
           <div className='col-span-6'>
             <center>
             <img
-              className="block h-50 w-100px mb-4"
-              src={'/images/Logo/logos.png'}
+              className="block logo_footer  mb-4"
+              src={'/images/Logo/logon.svg'}
               alt="Crypto-Logo"
             /></center>
             <h3 className='text-white text-sm font-normal leading-9 mb-4 lg:mb-16'>Estamos aquí para ayudarte. Te asignaremos un asesor personal para que te guía en todo el proceso de aprendizaje y/o puedas consultar con el cualquier duda que tengas
