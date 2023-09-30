@@ -24,10 +24,12 @@ import Faq from './components/Faq/index';
 */
 
 
-import { FaWhatsappSquare } from 'react-icons/fa';
 
-import { FaWhatsapp  } from 'react-icons/fa';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+import Album from './components/album/index';
+import Crecimiento from './components/Negocio_crecimiento/index';
+import Fac from './components/Facturacion/index';
 
 
 
@@ -37,23 +39,15 @@ export default function Home() {
     <main>
       <Banner /> 
       <Companies />
+      <Crecimiento/>
+      <Fac/>
       <Work />
       <Features />
-      <Simple />
       <Trade />
+      <Simple />
+      <Album/>
       <Faq />
       <Contact/>
-  
- 
-      <a
-        href="https://wa.link/pzw01y"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="whatsapp-icon"
-      >
-        <FaWhatsapp  />
-        <span className="contact-message">Contáctanos</span>
-      </a>
 
     </main>
   )

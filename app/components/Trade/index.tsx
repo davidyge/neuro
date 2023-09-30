@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Trade = () => {
     return (
-        <div className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative">
+        <div className="b_demo mx-auto max-w-7xl mt-48 mb-16 px-6 relative p-40" id="demo">
             <div className="radial-bgone hidden lg:block"></div>
 
             <div className="grid lg:grid-cols-2 gap-x-5">
@@ -36,7 +36,7 @@ const Trade = () => {
             <br/><br/>
                     <div className="flex justify-center ">
                     <a href="#contact-section">
-                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton'>Probar Demo gratis</button>
+                    <button className='text-xl font-semibold text-white py-4 px-10 lg:px-12 despliegue navbutton'>Probar Demo gratis</button>
                     </a>
                 </div>
         </div>

@@ -152,6 +152,9 @@ export default class MultipleItems extends Component {
 
             <div className='text-center bg-lightpink mt-10' >
                 <h3 className='text-black text-3xl md:text-5xl font-bold mb-3 mx-auto'>Nuestros clientes</h3>
+                <p className="text-center text-black text-2xl font-normal mb-4">
+                   Algunos de nuestros cientos de Clientes en todo el Perú</p>
+                
                 <div className="mx-auto max-w-2xl py-8 px-4s sm:px-6 lg:max-w-7xl lg:px-8">
                     <div>
                         <Slider {...settings}>

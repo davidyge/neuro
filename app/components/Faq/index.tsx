@@ -28,7 +28,7 @@ const faqdata = [
 ];
   return (
 
-    <div className="my-20 px-6 bg-gray py-24" id="faq-section">
+    <div className="b_preguntas my-20 px-6 bg-gray py-24" id="faq-section">
             <h3 className="text-center text-3xl lg:text-5xl font-bold text-black mb-3">Preguntas frecuentes</h3>
             <p className="text-center lg:text-lg font-normal text-black">Encuentra respuestas rápidas y fiables a las preguntas más comunes sobre el proceso de emisión y recepción de facturas electrónicas. 
             <br />Simplifica tu experiencia y ahorra tiempo con facturación electrónica NeuroSoft</p>

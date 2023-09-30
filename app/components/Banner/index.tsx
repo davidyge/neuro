@@ -59,7 +59,8 @@ const Banner = () => {
                             <p className='text-black md:text-lg font-normal mb-10 md:text-start text-center'>Diseñada para impulsar el crecimiento de tu negocio, <br />simplifica tus procesos diarios, gestiona clientes, productos <br /> y servicios de manera eficiente y emite facturas profesionales</p>
                             <div className='flex align-middle justify-center md:justify-start'>
                                 
-                                <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'><a href="https://wa.link/pzw01y" target="_blank">Más información</a></button>
+                                <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>
+                                    <a href="https://wa.link/pzw01y" target="_blank">Más información</a></button>
                                 
                                 <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-black'>
                                 <Image id="expanding-icono"  src={'/images/Banner/icono.svg'} alt="button-image" className='mr-3' width={47} height={47} />
@@ -87,9 +88,7 @@ const Banner = () => {
                                 </div>
                                 </div>
                                 </button>
-                                
-
-
+    
                         
                         </div>
                       

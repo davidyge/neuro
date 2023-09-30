@@ -10,8 +10,9 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
 
     { name: 'Inicio', href: '#home-section', current: false },
-    { name: 'Servicios', href: '#work_section', current: false },
-    { name: 'Demo', href: '#simple_section', current: false },
+    { name: 'Servicios', href: '#facturacion', current: false },
+    { name: 'Demo', href: '#demo', current: false },
+    { name: 'Soluciones', href: '#industrias', current: false },
     { name: 'Contacto', href: '#contact-section', current: false },
     
 ]

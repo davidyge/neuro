@@ -157,7 +157,7 @@ const Contact = () => {
                             />
                         </div>
                         <br />
-                        <center> <button type="submit" className="custom-btn font-bold hover:bg-orange">SOLICITAR DEMO GRATUITA</button>
+                        <center> <button type="submit" className="text-xl font-semibold text-white py-4 px-10 lg:px-12 despliegue navbutton">SOLICITAR DEMO GRATUITA</button>
                             <br /><br />
 
                             {showAlert && (

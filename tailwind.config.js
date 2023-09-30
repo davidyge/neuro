@@ -25,6 +25,7 @@ module.exports = {
       'blue': '#0C1B44',
       'gray': '#f5f7fd',
       'orange': '#f35d12',
+      'blue_tranp': '#1A4CAC',
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],

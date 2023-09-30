@@ -246,7 +246,7 @@ html:not([data-scroll="0"]) .navbar {
 }
 */
 .tarjetas{
-  margin-top: -30px;
+  margin-top: -120px;
 }
 
 .card-b {
@@ -308,15 +308,13 @@ html:not([data-scroll="0"]) .navbar {
 
 .feature-font {
   /*background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);*/
-  background: #fffbfb;
-  -webkit-background-clip: text;
+ 
   -webkit-text-fill-color: transparent;
-  background-clip: text;
   text-fill-color: transparent;
 }
-
-
-
+.feature{
+  margin-top: -50px;
+}
 
 
 /*CELULAR FONDO*/
@@ -512,6 +510,7 @@ html:not([data-scroll="0"]) .navbar {
 .footer-icons {
   transition: .5s;
 }
+
 
 .footer-icons:hover {
   transform: translateY(-8px);
@@ -719,16 +718,17 @@ th:last-child {
 /*FONDO DE LAS CARACTERISTICAS DE LOS TRES CAJONES Beneficios para tu negocio*/
 
 .box_caract{
-  background: #fafafa;
-  box-shadow: 0px 4px 4px rgba(205, 205, 205, 0.89);
+  
+  box-shadow: 4px 4px 4px 4px rgba(205, 205, 205, 0.89);
   border-radius: 20px;
   position: relative;
   transition: transform 430ms;
 }
 .box_caract:hover{
-  filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.1));
-  transform: scale(1.05);
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.1));
+  transform: scale(1.02);
   border: 1px solid #969696;
+  background: #f5f6f6;
   
 }
 
@@ -801,6 +801,105 @@ margin-top: 120px;
   width: 45px;
   height: 45px;
 }
+
+/*EXPANSION DE IMAGENES DE LOS RUBROS DE LOS SISTEMAS*/
+.clients {
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out; 
+
+}
+/* expansion de la imagen DE LOS RUBROS DE LOS SISTEMAS*/
+
+.clients:hover {
+  transform: scale(1.05);  
+}
+
+.titulo{
+
+  font-size: 22px;
+  letter-spacing: 1px;
+
+}
+.titulo:hover{
+  color: #d50804;
+}
+/*texto para ver mas imagenes de las 8 primeras*/
+.despliegue{
+  position: relative;
+  transition: transform 430ms;
+}
+
+.despliegue:hover{
+  transform: scale(1.01);
+}
+.vendedor{
+  border-radius: 3%;
+}
+
+/*BOTONES DE FCTURACION ELECTRONICA*/
+.custom-btn2 {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-btn2 {
+  background-color: #d7dff4;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 10px;
+  /* Otros estilos aquí */
+}
+
+/* Estilo cuando el botón está activo */
+.custom-btn2.active {
+  background-color: #1A4CAC;/* Cambia el color de fondo cuando está activo */
+  /* Otros estilos aquí */
+   font-weight: 700;
+   color: #fafafa;
+}
+
+.factura{
+  margin-top: -120px;
+}
+/*ALBUM DE FOTOS CON LOS RUBROS QUE SE TRABAJA*/
+.cab_1{
+  margin-top: -80px;
+}
+
+.b_industria{
+  margin-top: 40px;
+}
+.b_demo{
+  margin-top: -65px;
+}
+
+/*BENEFICIOS PARA TU NEGOCIO 3 TARJETAS*/
+
+.t_beneficio{
+  margin-top: 0px;
+}
+
+.b_simple{
+  margin-top: -170px;
+}
+
+.b_preguntas{
+  margin-top: -10px;
+}
+
+/*personalizado a tus necesidades*/
+
+.tarjetas1{
+  margin-top: -50px;
+}
+.cab_work{
+  margin-top: -50px;
+}
+
 
 
 

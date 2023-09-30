@@ -41,10 +41,10 @@ const Features = () => {
                 {/* Column-2 */}
                  {/* grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32 */}
                 <div>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4 lg:-mr-56 ">
+                    <div className="t_beneficio grid md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4 lg:-mr-56 ">
                                     
                         {featuresdata.map((items, i) => (
-                            <div className="box_caract bg-blue py-10 pr-12 pl-6 rounded-lg" key={i}>
+                            <div className="box_caract py-10 pr-12 pl-6 rounded-lg" key={i}>
 
                                 <div className="flex items-center justify-center "> 
                                 <div className="rounded-full gg h-16 w-16 flex items-center justify-center mb-10">
@@ -54,7 +54,7 @@ const Features = () => {
                                
                                 </div>
                                 
-                                <div className="flex items-center justify-center"> 
+                                <div className="flex items-center justify-center "> 
                                 <h5 className="text-black text-lg font-medium mb-4 ">{items.heading}</h5></div>
                                 <div className="flex items-center justify-center "> 
                                 <p className="text-black text-sm font-normal">{items.subheading}</p>
