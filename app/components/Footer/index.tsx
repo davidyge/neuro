@@ -107,7 +107,7 @@ const footer = () => {
       {/* All Rights Reserved */}
 
       <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-offwhite'>@Copyright-2023 <Link href="https://adminmart.com/" target="_blank"> </Link></h3>
+        <h3 className='text-center text-offwhite'>@NeuroSoft-2023 <Link href="https://adminmart.com/" target="_blank"> </Link></h3>
       </div>
 
     </div>

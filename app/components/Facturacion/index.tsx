@@ -61,7 +61,7 @@ const Fac = () => {
                         {showHuanuco && (
 
                             <div className="location-map mt-8 grid lg:grid-cols-2 gap-x-0">
-                                <div className="bg-blue_tranp flex justify-center items-center h-full ">
+                                <div className="bg-blue_tranp borde_f_azul flex justify-center items-center h-full ">
 
                                     <Image className="py-5 px-5" src={'/images/Facturacion/f_basico.png'} alt="macBook-image" width={520} height={312} />
                                 </div>
@@ -69,9 +69,9 @@ const Fac = () => {
 
                                 <div className="bg-gray px-8  justify-center h-full ">
 
-                                    <h3 className="text-3xl lg:text-4xl font-semibold text-black mb-6 text-center sm:text-start mt-10">Sistema para emitir facturas electrónicas y administrar inventarios</h3>
+                                    <h3 className="text-3xl lg:text-4xl font-semibold text-black mb-6 text-center sm:text-start mt-10">Sistemas para emitir comprobantes electronicos</h3>
                                     <p className="lg:text-lg font-normal text-black py-3 ml-2 sm:text-left">
-                                     Neurosoft es una solución integral para la administración de ventas, adquisiciones y control de inventario, empleada por numerosas compañías en diversas regiones de Perú
+                                     Neurosoft es una solución integral para la administración de ventas y cierre de caja, empleada por numerosas compañías en diversas regiones de Perú
                                     </p>
 
                                     <div className="flex items-center">
@@ -119,7 +119,7 @@ const Fac = () => {
 
                         {showPucallpa && (
                               <div className="location-map mt-8 grid lg:grid-cols-2 gap-x-5">
-                              <div className="bg-blue_tranp flex justify-center items-center h-full ">
+                              <div className="bg-blue_tranp borde_f_azul flex justify-center items-center h-full ">
 
                                   <Image className="py-5 px-5" src={'/images/Facturacion/f_avanzado.png'} alt="macBook-image" width={520} height={312} />
                               </div>
@@ -127,9 +127,9 @@ const Fac = () => {
 
                               <div className="bg-gray ">
 
-                                  <h3 className="text-3xl lg:text-4xl font-semibold text-black mb-6 text-center sm:text-start mt-10">Plataforma con Punto de Venta, Caja, Inventarios, Bancos y Finanzas</h3>
+                                  <h3 className="text-3xl lg:text-4xl font-semibold text-black mb-6 text-center sm:text-start mt-10">Plataforma con Punto de Venta, Caja, Inventarios y Reportes</h3>
                                   <p className="lg:text-lg font-normal text-black py-3 ml-2 sm:text-left">
-                                  Con Neurosoft Plus tendrás una amplia gama de módulos que te permitirán gestionar tu empresa y finanzas de una manera eficaz y confiable.
+                                  Con Neurosoft Plus tendrás una amplia gama de módulos que te permitirán gestionar tu empresa de una manera eficaz y confiable.
                                   </p>
 
                                   <div className="flex items-center">
@@ -167,7 +167,7 @@ const Fac = () => {
                                           height={26}
                                       />
                                       <p className="lg:text-lg font-normal text-black py-3 ml-2 sm:text-left">
-                                      Módulos de finanzas y contables
+                                      Kardex
                                       </p>
                                   </div>
                               </div>

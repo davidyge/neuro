@@ -21,6 +21,8 @@ import Faq from './components/Faq/index';
 - Faq: preguntas frecuentes
 - / fin - footer
 
+<Cliente/>
+
 */
 
 
@@ -30,6 +32,7 @@ import Navbar from './components/Navbar';
 import Album from './components/album/index';
 import Crecimiento from './components/Negocio_crecimiento/index';
 import Fac from './components/Facturacion/index';
+import Cliente from './components/Clientes/index';
 
 
 
@@ -47,6 +50,7 @@ export default function Home() {
       <Simple />
       <Album/>
       <Faq />
+      
       <Contact/>
 
     </main>
