@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <main>
-      <Banner /> 
+      <Banner/> 
       <Companies />
       <Crecimiento/>
       <Fac/>
