@@ -56,7 +56,7 @@ const Banner = () => {
                             <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-black md:4px md:text-start text-center">
                                 Gestion comercial<br /> y Facturación
                             </h1>
-                            <p className='text-black md:text-lg font-normal mb-10 md:text-start text-center'>Diseñada para impulsar el crecimiento de tu negocio, <br />simplifica tus procesos diarios, gestiona clientes, productos <br /> y servicios de manera eficiente y emite facturas profesionales</p>
+                            <p className='text-black md:text-lg font-normal mb-10 md:text-start text-center'>Diseñada para impulsar el crecimiento de tu negocio, <br />simplifica tus procesos diarios, gestiona clientes, productos <br /> y servicios de manera eficiente y emite facturas profesionales.</p>
                             <div className='flex align-middle justify-center md:justify-start'>
                                 
                                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>
