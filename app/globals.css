@@ -54,7 +54,7 @@ body {
   position: relative; /* Cambiamos a relativo para que .btn_b esté relativo a este contenedor */
   width: 70px; /* Ancho del contenedor (ajusta según tus necesidades) */
   height: 70px; /* Altura del contenedor (ajusta según tus necesidades) */
-  border-radius: 80%; /* Aplicar un borde circular */
+  border-radius: 80%; /* Aplicar un borde circular  */
   background-color: hsl(0, 74%, 52%);
   display: flex;
   align-items: center;
@@ -110,8 +110,8 @@ html:not([data-scroll="0"]) .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: linear-gradient(90deg, #ff0400 0%, #ff0400 97.15%);
-  background-color: #ea3939;
+  background-image: linear-gradient(90deg, #ca0805 0%, #ca0805 97.15%);
+  background-color: #ca0805;
   background-blend-mode: overlay;
   opacity: 1.9;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
@@ -122,12 +122,11 @@ html:not([data-scroll="0"]) .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: linear-gradient(90deg, #ff0400 0%, #ff0400 97.15%);
-  background-color: #ea3939;
+  background-image: linear-gradient(90deg, #ca0805 0%, #ca0805 97.15%);
+  background-color: #ca0805;
   background-blend-mode: overlay;
   opacity: 1.9;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
-  
   z-index: 40;
  
 }
@@ -162,82 +161,6 @@ html:not([data-scroll="0"]) .navbar {
   z-index: -1;
 }
 
-.arrowTwo {
-  position: absolute;
-  top: 20%;
-  left: 17%;
-  background-image: url('/images/Banner/arrowTwo.svg');
-  width: 9%; 
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.arrowThree {
-  position: absolute;
-  background-image: url('/images/Banner/arrowThree.svg');
-  top: 32%;
-  left: 53%;
-  width: 9%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.arrowFour {
-  position: absolute;
-  background-image: url('/images/Banner/arrowFour.svg');
-  top: 48%;
-  left: 46%;
-  width: 9%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.arrowFive { 
-  position: absolute;
-  background-image: url('/images/Banner/arrowFive.svg');
-  top: 61%;
-  left: 53%;
-  width: 9%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.arrowSix {
-  position: absolute;
-  background-image: url('/images/Banner/arrowSix.svg');
-  top: 39%;
-  left: 80%;
-  width: 9%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.arrowSeven {
-  position: absolute;
-  background-image: url('/images/Banner/arrowSeven.svg');
-  top: 57%;
-  left: 79%;
-  width: 9%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.arrowEight {
-  position: absolute;
-  background-image: url('/images/Banner/arrowEight.svg');
-  top: 57%;
-  right: 0%;
-  width: 9%;
-  height: 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
 
 /* Work Section tarjetas*/
 /*
@@ -262,12 +185,12 @@ html:not([data-scroll="0"]) .navbar {
   filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.1));
   transform: scale(1.05);
   border: 1px solid #969696;
-  
 }
 
 .hides {
   display: none;
 }
+
 /*desplegar caja de texto*/
 /*
 .card-b:hover > .hides {
@@ -284,7 +207,6 @@ html:not([data-scroll="0"]) .navbar {
 .work-img-bg:hover{
   background: linear-gradient(90deg, #ff7b00 0%, #ff8400 97.15%);
 }
-
 
 
 .soporte{
@@ -324,7 +246,7 @@ html:not([data-scroll="0"]) .navbar {
   width: 100%;
   height: 7.6%;
 }
-/*FONDO EN MODO MOBILEcaracteristicas (CAMBIAR FONDO DE FOCOS PEQUEÑOS)*/
+/*FONDO EN MODO MOBILE caracteristicas (CAMBIAR FONDO DE FOCOS PEQUEÑOS)*/
 
 .gg{
   background: linear-gradient(90deg, #de0000 0%, #ff0000 100%);
@@ -627,7 +549,7 @@ th:last-child {
 
 
 .footer{
-  background-color: #d50804;
+  background-color: #ba0805;
 }
 
 .titulo{

@@ -90,7 +90,7 @@ const Fac = () => {
                                     <div className="flex items-center">
                                         <Image
                                             className="vendedor flex-shrink-0"
-                                            src={'/images/Facturacion/cheque.png'}
+                                            src={'/images/Facturacion/cheque.webp'}
                                             alt="macBook-image"
                                             width={26}
                                             height={26}
@@ -103,7 +103,7 @@ const Fac = () => {
                                     <div className="flex items-center">
                                         <Image
                                             className="vendedor flex-shrink-0"
-                                            src={'/images/Facturacion/cheque.png'}
+                                            src={'/images/Facturacion/cheque.webp'}
                                             alt="macBook-image"
                                             width={26}
                                             height={26}

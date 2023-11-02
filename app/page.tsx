@@ -20,19 +20,20 @@ import Faq from './components/Faq/index';
 - Trade: iconos de sistemas operativos
 - Faq: preguntas frecuentes
 - / fin - footer
-
+import Navbar from './components/Navbar';
+import Cliente from './components/Clientes/index';
 <Cliente/>
 
 */
 
 
-
 import Contact from './components/Contact';
-import Navbar from './components/Navbar';
 import Album from './components/album/index';
 import Crecimiento from './components/Negocio_crecimiento/index';
 import Fac from './components/Facturacion/index';
-import Cliente from './components/Clientes/index';
+
+
+
 
 
 
@@ -52,7 +53,8 @@ export default function Home() {
       <Faq />
       
       <Contact/>
-
+     
+      
     </main>
   )
 }

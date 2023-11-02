@@ -56,7 +56,7 @@ const footer = () => {
                 <Link href={items.href} key={i} target="_blank">
                   <div className='icon-container'>
                     
-                  <img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' />
+                  <img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' height={30} width={30} loading="lazy"/>
                   </div>
                   </Link>
               ))}

@@ -196,7 +196,7 @@ const Contact = () => {
                         
 
                            <iframe
-                               title="Mapa de Ejemplo"
+                               title="Mapa de NEUROSYSTEM en Huánuco"
                                width="100%"
                                height="600"
                                frameBorder="0"
@@ -212,12 +212,11 @@ const Contact = () => {
                     )}
 
                     {showPucallpa && (
-                        <div className="location-map mt-8">
-                        
+                        <div className="location-map mt-8">              
                         <div className="map-container">
 
                             <iframe
-                                title="Mapa de Ejemplo"
+                                title="Mapa de NEUROSYSTEM en Pucallpa"
                                 width="100%"
                                 height="600"
                                 frameBorder="0"
@@ -227,8 +226,6 @@ const Contact = () => {
                             ></iframe>
 
                         </div>
-
-
                     </div>
                     )}
 

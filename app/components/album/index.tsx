@@ -8,67 +8,67 @@ const Album = () => {
 
     const workdata = [
         {
-            imgSrc: '/images/Rubros/restaurante.png',
+            imgSrc: '/images/Rubros/restaurante.webp',
             title: 'Restaurante'
         },
         {
-            imgSrc: '/images/Rubros/farmacia.png',
+            imgSrc: '/images/Rubros/farmacia.webp',
             title: 'Farmacia'
         },
         {
-            imgSrc: '/images/Rubros/ferreteria.png',
+            imgSrc: '/images/Rubros/ferreteria.webp',
             title: 'Ferreteria'
         },
         {
-            imgSrc: '/images/Rubros/taller.png',
+            imgSrc: '/images/Rubros/taller.webp',
             title: 'Taller'
         },
         {
-            imgSrc: '/images/Rubros/supermercado.png',
+            imgSrc: '/images/Rubros/supermercado.webp',
             title: 'Supermercado'
         },
         {
-            imgSrc: '/images/Rubros/grifo.png',
+            imgSrc: '/images/Rubros/grifo.webp',
             title: 'Grifo'
         },
         {
-            imgSrc: '/images/Rubros/colegio.png',
+            imgSrc: '/images/Rubros/colegio.webp',
             title: 'Colegio'
         },
         {
-            imgSrc: '/images/Rubros/comercio.png',
+            imgSrc: '/images/Rubros/comercio.webp',
             title: 'Comercio'
         },
         {
-            imgSrc: '/images/Rubros/clinica.png',
+            imgSrc: '/images/Rubros/clinica.webp',
             title: 'Clínica'
         },
         {
-            imgSrc: '/images/Rubros/notaria.png',
+            imgSrc: '/images/Rubros/notaria.webp',
             title: 'Notaría'
         },
         {
-            imgSrc: '/images/Rubros/instituto.png',
+            imgSrc: '/images/Rubros/instituto.webp',
             title: 'Instituto'
         },
         {
-            imgSrc: '/images/Rubros/servicios.png',
+            imgSrc: '/images/Rubros/servicios.webp',
             title: 'Servicios'
         },
         {
-            imgSrc: '/images/Rubros/agencia.png',
+            imgSrc: '/images/Rubros/agencia.webp',
             title: 'Agencia'
         },
         {
-            imgSrc: '/images/Rubros/hotel.png',
+            imgSrc: '/images/Rubros/hotel.webp',
             title: 'Hotel'
         },
         {
-            imgSrc: '/images/Rubros/transporte.png',
+            imgSrc: '/images/Rubros/transporte.webp',
             title: 'Transporte'
         },
         {
-            imgSrc: '/images/Rubros/vidrieria.png',
+            imgSrc: '/images/Rubros/vidrieria.webp',
             title: 'Vidriería'
         },
     ];

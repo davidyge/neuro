@@ -9,50 +9,50 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/images/Companies/1_san_carlos.png"
+        imgSrc: "/images/Companies/1_san_carlos.webp"
     },
     {
-        imgSrc: "/images/Companies/2_trapiche_house.png"
+        imgSrc: "/images/Companies/2_trapiche_house.webp"
     },
     {
-        imgSrc: "/images/Companies/3_hotel_fransico.png"
+        imgSrc: "/images/Companies/3_hotel_fransico.webp"
     },
     {
-        imgSrc: "/images/Companies/4_primax.png"
+        imgSrc: "/images/Companies/4_primax.webp"
     },
     {
-        imgSrc: "/images/Companies/5_viajero.png"
+        imgSrc: "/images/Companies/5_viajero.webp"
     },
     {
-        imgSrc: "/images/Companies/6_cevicheria.png"
+        imgSrc: "/images/Companies/6_cevicheria.webp"
     },
     {
-        imgSrc: "/images/Companies/7_panaderia.png"
+        imgSrc: "/images/Companies/7_panaderia.webp"
     },
 ]
 
 
 const dataR: Data[] = [
     {
-        imgSrc: "/images/Companies/8_carwash.png"
+        imgSrc: "/images/Companies/8_carwash.webp"
     },
     {
-        imgSrc: "/images/Companies/9_genesis.png"
+        imgSrc: "/images/Companies/9_genesis.webp"
     },
     {
-        imgSrc: "/images/Companies/10_botica.png"
+        imgSrc: "/images/Companies/10_botica.webp"
     },
     {
-        imgSrc: "/images/Companies/11_calzados.png"
+        imgSrc: "/images/Companies/11_calzados.webp"
     },
     {
-        imgSrc: "/images/Companies/12_licoreria.png"
+        imgSrc: "/images/Companies/12_licoreria.webp"
     },
     {
-        imgSrc: "/images/Companies/13_repuestos.png"
+        imgSrc: "/images/Companies/13_repuestos.webp"
     },
     {
-        imgSrc: "/images/Companies/14_ferreteria.png"
+        imgSrc: "/images/Companies/14_ferreteria.webp"
     },
 ]
 
@@ -160,8 +160,7 @@ export default class MultipleItems extends Component {
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
-                                    <img src={item.imgSrc} alt={item.imgSrc} />  
-                                    
+                                    <img src={item.imgSrc} alt={item.imgSrc} width={200} height={100} loading="lazy"/>    
                                 </div>
                             )}
                         </Slider>
@@ -170,7 +169,7 @@ export default class MultipleItems extends Component {
                         <Slider {...settings2}>
                             {dataR.map((item, i) =>
                                 <div key={i}>
-                                    <img src={item.imgSrc} alt={item.imgSrc} />  
+                                    <img src={item.imgSrc} alt={item.imgSrc} width={200} height={100} loading="lazy"/>  
                                     
                                 </div>
                             )}
