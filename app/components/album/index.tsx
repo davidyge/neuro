@@ -53,7 +53,8 @@ const Album = () => {
         },
         {
             imgSrc: '/images/Rubros/servicios.webp',
-            title: 'Servicios'
+            title: 'Servicios',
+            alt: 'Imagen de servicios publicos'
         },
         {
             imgSrc: '/images/Rubros/agencia.webp',
@@ -70,6 +71,7 @@ const Album = () => {
         {
             imgSrc: '/images/Rubros/vidrieria.webp',
             title: 'Vidriería'
+           
         },
     ];
 
@@ -103,6 +105,7 @@ const Album = () => {
                                     alt={item.title}
                                     width={320}
                                     height={320}
+                                    
                                 />
                             </a>
                         </center>
@@ -118,7 +121,7 @@ const Album = () => {
                                 <Image
                                     className="clients bg-blue-500 rounded-lg overflow-hidden shadow-2xl opacity-100 hover:opacity-80 transition-opacity"
                                     src={item.imgSrc}
-                                    alt={item.title}
+                                    alt={`Imagen de ${item.title}`}
                                     width={320}
                                     height={320}
                                 />

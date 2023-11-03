@@ -64,7 +64,7 @@ const Cliente = () => {
                                 <Image
                                     className="clients bg-blue-500 rounded-lg overflow-hidden shadow-2xl opacity-100 hover:opacity-80 transition-opacity"
                                     src={item.imgSrc}
-                                    alt={item.title}
+                                    alt={`Imagen de ${item.title}`}
                                     width={320}
                                     height={320}
                                 />
