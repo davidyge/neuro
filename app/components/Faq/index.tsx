@@ -55,7 +55,6 @@ const faqdata = [
                   </Disclosure.Button>
                   <Disclosure.Panel className="flex2 px-4 pt-4 pb-2text-gray-500 dark:text-gray-300">
                     {item.answer}
-
                   </Disclosure.Panel>
                 </>
               )}
@@ -67,7 +66,7 @@ const faqdata = [
 
       {/* Column-2 */}
       <div className="mt-20 ml-0" style={{ width: '120%', height: '120%' }}>
-                        <Image src={'/images/Faq/faq9.png'} alt="faq-image" width={1200} height={1200} />
+                        <Image src={'/images/Faq/faq9.webp'} alt="faq-image" width={1200} height={1200} />
                     </div>
 
 </div>

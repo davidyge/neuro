@@ -11,7 +11,7 @@ const Crecimiento = () => {
             <div className="grid lg:grid-cols-2 gap-x-5">
                 {/* Column-1 */}
                 <div>
-                    <Image className="vendedor shadow-md" src={'/images/Negocio_crecimiento/vender.png'} alt="macBook-image" width={470} height={462} />
+                    <Image className="vendedor shadow-md" src={'/images/Negocio_crecimiento/vender.webp'} alt="macBook-image" width={470} height={462} />
 
                 </div>
 
@@ -25,7 +25,7 @@ const Crecimiento = () => {
                     <div className="flex items-center">
                         <Image
                             className="vendedor flex-shrink-0"
-                            src={'/images/Negocio_crecimiento/check.png'}
+                            src={'/images/Negocio_crecimiento/check.webp'}
                             alt="macBook-image"
                             width={26}
                             height={26}
@@ -39,7 +39,7 @@ const Crecimiento = () => {
                     <div className="flex items-center">
                         <Image
                             className="vendedor flex-shrink-0"
-                            src={'/images/Negocio_crecimiento/check.png'}
+                            src={'/images/Negocio_crecimiento/check.webp'}
                             alt="macBook-image"
                             width={26}
                             height={26}
@@ -53,7 +53,7 @@ const Crecimiento = () => {
                     <div className="flex items-center">
                         <Image
                             className="vendedor flex-shrink-0"
-                            src={'/images/Negocio_crecimiento/check.png'}
+                            src={'/images/Negocio_crecimiento/check.webp'}
                             alt="macBook-image"
                             width={26}
                             height={26}
@@ -67,7 +67,7 @@ const Crecimiento = () => {
                     <div className="flex items-center">
                         <Image
                             className="vendedor flex-shrink-0"
-                            src={'/images/Negocio_crecimiento/check.png'}
+                            src={'/images/Negocio_crecimiento/check.webp'}
                             alt="macBook-image"
                             width={26}
                             height={26}
@@ -81,7 +81,7 @@ const Crecimiento = () => {
                     <div className="flex items-center">
                         <Image
                             className="vendedor flex-shrink-0"
-                            src={'/images/Negocio_crecimiento/check.png'}
+                            src={'/images/Negocio_crecimiento/check.webp'}
                             alt="macBook-image"
                             width={26}
                             height={26}
@@ -95,7 +95,7 @@ const Crecimiento = () => {
                     <div className="flex items-center">
                         <Image
                             className="vendedor flex-shrink-0"
-                            src={'/images/Negocio_crecimiento/check.png'}
+                            src={'/images/Negocio_crecimiento/check.webp'}
                             alt="macBook-image"
                             width={26}
                             height={26}

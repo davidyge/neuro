@@ -63,7 +63,7 @@ const Fac = () => {
                             <div className="location-map mt-8 grid lg:grid-cols-2 gap-x-0">
                                 <div className="bg-blue_tranp borde_f_azul flex justify-center items-center h-full ">
 
-                                    <Image className="py-5 px-5" src={'/images/Facturacion/f_basico.png'} alt="macBook-image" width={520} height={312} />
+                                    <Image className="py-5 px-5" src={'/images/Facturacion/f_basico.webp'} alt="macBook-image" width={520} height={312} />
                                 </div>
 
 
@@ -77,7 +77,7 @@ const Fac = () => {
                                     <div className="flex items-center">
                                         <Image
                                             className="vendedor flex-shrink-0"
-                                            src={'/images/Facturacion/cheque.png'}
+                                            src={'/images/Facturacion/cheque.webp'}
                                             alt="macBook-image"
                                             width={26}
                                             height={26}
@@ -121,7 +121,7 @@ const Fac = () => {
                               <div className="location-map mt-8 grid lg:grid-cols-2 gap-x-5">
                               <div className="bg-blue_tranp borde_f_azul flex justify-center items-center h-full ">
 
-                                  <Image className="py-5 px-5" src={'/images/Facturacion/f_avanzado.png'} alt="macBook-image" width={520} height={312} />
+                                  <Image className="py-5 px-5" src={'/images/Facturacion/f_avanzado.webp'} alt="macBook-image" width={520} height={312} />
                               </div>
 
 
@@ -135,7 +135,7 @@ const Fac = () => {
                                   <div className="flex items-center">
                                       <Image
                                           className="vendedor flex-shrink-0"
-                                          src={'/images/Facturacion/cheque.png'}
+                                          src={'/images/Facturacion/cheque.webp'}
                                           alt="macBook-image"
                                           width={26}
                                           height={26}
@@ -148,7 +148,7 @@ const Fac = () => {
                                   <div className="flex items-center">
                                       <Image
                                           className="vendedor flex-shrink-0"
-                                          src={'/images/Facturacion/cheque.png'}
+                                          src={'/images/Facturacion/cheque.webp'}
                                           alt="macBook-image"
                                           width={26}
                                           height={26}
@@ -161,7 +161,7 @@ const Fac = () => {
                                   <div className="flex items-center">
                                       <Image
                                           className="vendedor flex-shrink-0"
-                                          src={'/images/Facturacion/cheque.png'}
+                                          src={'/images/Facturacion/cheque.webp'}
                                           alt="macBook-image"
                                           width={26}
                                           height={26}

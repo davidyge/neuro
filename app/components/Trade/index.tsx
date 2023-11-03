@@ -9,7 +9,7 @@ const Trade = () => {
             <div className="grid lg:grid-cols-2 gap-x-5">
                 {/* Column-1 */}
                 <div>
-                    <Image src={'/images/Trade/demo.png'} alt="macBook-image" width={787} height={512} />
+                    <Image src={'/images/Trade/demo.webp'} alt="macBook-image" width={787} height={512} />
                     
                 </div>
                 
