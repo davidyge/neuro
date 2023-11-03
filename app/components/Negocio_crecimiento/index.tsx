@@ -11,7 +11,7 @@ const Crecimiento = () => {
             <div className="grid lg:grid-cols-2 gap-x-5">
                 {/* Column-1 */}
                 <div>
-                    <Image className="vendedor shadow-md" src={'/images/Negocio_crecimiento/vender.webp'} alt="macBook-image" width={470} height={462} />
+                    <Image className="vendedor shadow-md" src={'/images/Negocio_crecimiento/vender.webp'} alt="imagen de punto de venta" width={470} height={462} />
 
                 </div>
 
@@ -26,7 +26,7 @@ const Crecimiento = () => {
                         <Image
                             className="vendedor flex-shrink-0"
                             src={'/images/Negocio_crecimiento/check.webp'}
-                            alt="macBook-image"
+                            alt="imagen de check"
                             width={26}
                             height={26}
                         />
@@ -40,7 +40,7 @@ const Crecimiento = () => {
                         <Image
                             className="vendedor flex-shrink-0"
                             src={'/images/Negocio_crecimiento/check.webp'}
-                            alt="macBook-image"
+                            alt="imagen de check"
                             width={26}
                             height={26}
                         />
@@ -54,7 +54,7 @@ const Crecimiento = () => {
                         <Image
                             className="vendedor flex-shrink-0"
                             src={'/images/Negocio_crecimiento/check.webp'}
-                            alt="macBook-image"
+                            alt="imagen de check"
                             width={26}
                             height={26}
                         />
@@ -68,7 +68,7 @@ const Crecimiento = () => {
                         <Image
                             className="vendedor flex-shrink-0"
                             src={'/images/Negocio_crecimiento/check.webp'}
-                            alt="macBook-image"
+                            alt="imagen de check"
                             width={26}
                             height={26}
                         />
@@ -82,7 +82,7 @@ const Crecimiento = () => {
                         <Image
                             className="vendedor flex-shrink-0"
                             src={'/images/Negocio_crecimiento/check.webp'}
-                            alt="macBook-image"
+                            alt="imagen de check"
                             width={26}
                             height={26}
                         />
@@ -96,7 +96,7 @@ const Crecimiento = () => {
                         <Image
                             className="vendedor flex-shrink-0"
                             src={'/images/Negocio_crecimiento/check.webp'}
-                            alt="macBook-image"
+                            alt="imagen de check"
                             width={26}
                             height={26}
                         />

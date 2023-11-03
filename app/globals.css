@@ -599,7 +599,9 @@ th:last-child {
   cursor: pointer;
 }
 
-
+html, body {
+  overflow-x: hidden;
+}
 
 /* Estilos para pantallas grandes */
 @media (min-width: 768px) {
@@ -621,7 +623,6 @@ th:last-child {
     max-width: 300px;
   }
 }
-
 
 /* Ajustar el espaciado entre el formulario y el mapa */
 .custom-container {

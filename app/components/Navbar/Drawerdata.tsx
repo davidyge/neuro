@@ -45,7 +45,7 @@ const Data = () => {
                         <center>
                         <div className='flex align-middle justify-center md:justify-start'>
                                 <a href="https://wa.link/pzw01y" target="_blank">
-                                <button className='text-x font-semibold text-white py-3 px-3 lg:px-8 navbutton2 mr-6'><a></a>Contáctenos</button>
+                                <button className='text-x font-semibold text-white py-3 px-3 lg:px-8 navbutton2 mr-6'>Contáctenos</button>
                                 </a>
                         
                         </div>

@@ -116,7 +116,7 @@ const Album = () => {
                 {mostrarMas && filasRestantes.map((item, index) => (
                     <div className="col-span-1" key={index}>
                         <center>
-                            <a href="https://wa.link/pzw01y" target="_blank">
+                            <a href="https://wa.link/pzw01y" target="_blank"> 
                                 <h3 className="titulo text-xl font-bold py-0">{item.title}</h3>
                                 <Image
                                     className="clients bg-blue-500 rounded-lg overflow-hidden shadow-2xl opacity-100 hover:opacity-80 transition-opacity"

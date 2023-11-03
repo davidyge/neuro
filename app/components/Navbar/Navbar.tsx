@@ -5,18 +5,6 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 
-import { Routes, Route } from 'react-router-dom';
-
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-
-import {Outlet} from "react-router-dom";
-
-
-import { useContext } from 'react'
-import { Link } from 'react-router-dom'
-
-
 
 // import Contactusform from './Contactus';
 
@@ -66,11 +54,13 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
+                                 {/* pantalla grande */}
                                 <img
                                     className="block logo_navmcel lg:hidden"
                                     src={'/images/Logo/logon.svg'}
                                     alt="Crypto-Logo"
                                 />
+                                {/* pantalla pequeña */}
                                 <img
                                     className="hidden logo_navgr lg:block"
                                     src={'/images/Logo/logon.svg'}

@@ -7,23 +7,23 @@ import emailjs from "@emailjs/browser";
 const Fac = () => {
 
 
-    const [showHuanuco, setShowHuanuco] = useState(true);
-    const [showPucallpa, setShowPucallpa] = useState(false);
+    const [facturacion, setfacturacion] = useState(true);
+    const [puntodeventa, setpuntodeventa] = useState(false);
 
     const [isHuanucoActive, setIsHuanucoActive] = useState(true);
     const [isPucallpaActive, setIsPucallpaActive] = useState(false);
 
-    const handleShowHuanuco = () => {
-        setShowHuanuco(true);
-        setShowPucallpa(false);
+    const handlefacturacion = () => {
+        setfacturacion(true);
+        setpuntodeventa(false);
 
         setIsHuanucoActive(true);
         setIsPucallpaActive(false);
     };
 
-    const handleShowPucallpa = () => {
-        setShowHuanuco(false);
-        setShowPucallpa(true);
+    const handlepuntodeventa = () => {
+        setfacturacion(false);
+        setpuntodeventa(true);
 
         setIsHuanucoActive(false);
         setIsPucallpaActive(true);
@@ -45,25 +45,24 @@ const Fac = () => {
                     <div>
 
                         
-
                         {/* Agregar botones para mostrar ubicaciones */}
                         <div className='text-center mb-14'>
                     <h3 className='text-black text-3xl md:text-5xl font-bold mb-3 mx-auto'>Nuestros servicios</h3>
                 </div>
 
                         <div className="text-center flex flex-col md:flex-row justify-center ">
-                            <button onClick={handleShowHuanuco} className={`custom-btn2 md:mr-2 font-bold  ${isHuanucoActive ? 'active' : ''}`}>Facturación Electrónica</button>
-                            <button onClick={handleShowPucallpa} className={`custom-btn2 m  ${isPucallpaActive ? 'active' : ''}`}>Punto de Venta y Caja</button>
+                            <button onClick={handlefacturacion} className={`custom-btn2 md:mr-2 font-bold  ${isHuanucoActive ? 'active' : ''}`}>Facturación Electrónica</button>
+                            <button onClick={handlepuntodeventa} className={`custom-btn2 m  ${isPucallpaActive ? 'active' : ''}`}>Punto de Venta y Caja</button>
                         </div>
 
 
                         {/* Mostrar ubicaciones según el botón presionado */}
-                        {showHuanuco && (
+                        {facturacion && (
 
                             <div className="location-map mt-8 grid lg:grid-cols-2 gap-x-0">
                                 <div className="bg-blue_tranp borde_f_azul flex justify-center items-center h-full ">
 
-                                    <Image className="py-5 px-5" src={'/images/Facturacion/f_basico.webp'} alt="macBook-image" width={520} height={312} />
+                                    <Image className="py-5 px-5" src={'/images/Facturacion/f_basico.webp'} alt="imagen de facturacion basica" width={520} height={312} />
                                 </div>
 
 
@@ -78,7 +77,7 @@ const Fac = () => {
                                         <Image
                                             className="vendedor flex-shrink-0"
                                             src={'/images/Facturacion/cheque.webp'}
-                                            alt="macBook-image"
+                                            alt="imagen de check"
                                             width={26}
                                             height={26}
                                         />
@@ -91,7 +90,7 @@ const Fac = () => {
                                         <Image
                                             className="vendedor flex-shrink-0"
                                             src={'/images/Facturacion/cheque.webp'}
-                                            alt="macBook-image"
+                                            alt="imagen de check"
                                             width={26}
                                             height={26}
                                         />
@@ -104,7 +103,7 @@ const Fac = () => {
                                         <Image
                                             className="vendedor flex-shrink-0"
                                             src={'/images/Facturacion/cheque.webp'}
-                                            alt="macBook-image"
+                                            alt="imagen de check"
                                             width={26}
                                             height={26}
                                         />
@@ -117,11 +116,11 @@ const Fac = () => {
                             </div>
                         )}
 
-                        {showPucallpa && (
+                        {puntodeventa && (
                               <div className="location-map mt-8 grid lg:grid-cols-2 gap-x-5">
                               <div className="bg-blue_tranp borde_f_azul flex justify-center items-center h-full ">
 
-                                  <Image className="py-5 px-5" src={'/images/Facturacion/f_avanzado.webp'} alt="macBook-image" width={520} height={312} />
+                                  <Image className="py-5 px-5" src={'/images/Facturacion/f_avanzado.webp'} alt="imagen de punto de venta" width={520} height={312} />
                               </div>
 
 
@@ -136,7 +135,7 @@ const Fac = () => {
                                       <Image
                                           className="vendedor flex-shrink-0"
                                           src={'/images/Facturacion/cheque.webp'}
-                                          alt="macBook-image"
+                                          alt="imagen de check"
                                           width={26}
                                           height={26}
                                       />
@@ -149,7 +148,7 @@ const Fac = () => {
                                       <Image
                                           className="vendedor flex-shrink-0"
                                           src={'/images/Facturacion/cheque.webp'}
-                                          alt="macBook-image"
+                                          alt="imagen de check"
                                           width={26}
                                           height={26}
                                       />
@@ -162,7 +161,7 @@ const Fac = () => {
                                       <Image
                                           className="vendedor flex-shrink-0"
                                           src={'/images/Facturacion/cheque.webp'}
-                                          alt="macBook-image"
+                                          alt="imagen de check"
                                           width={26}
                                           height={26}
                                       />
