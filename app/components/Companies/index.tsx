@@ -151,7 +151,7 @@ export default class MultipleItems extends Component {
         return (
 
             <div className='text-center bg-lightpink mt-10' >
-                <h3 className='text-black text-3xl md:text-5xl font-bold mb-3 mx-auto'>Nuestros clientes</h3>
+                <h2 className='text-black text-3xl md:text-5xl font-bold mb-3 mx-auto'>Nuestross clientes</h2>
                 <p className="text-center text-black text-2xl font-normal mb-4">
                    Algunos de nuestros cientos de Clientes en todo el Perú</p>
                 

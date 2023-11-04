@@ -4,8 +4,6 @@ import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
 
 
-
-
 export const metadata = {
   title: 'NEUROSYSTEM',
   description: 'Logotipo para la empresa NEUROSYSTEM',
